@@ -1,0 +1,18 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Nahid Hasan | Portfolio"
+theme = ""
+enableRobotsTXT = true
+
+[params]
+  name = "Nahid Hasan"
+  title = "Computer Science & Engineering Student"
+  university = "Daffodil International University"
+  email = "252-15-830@diu.edu.bd"
+  facebook = "https://www.facebook.com/devnahid990"
+  description = "Personal portfolio of Nahid Hasan, a Computer Science and Engineering student from Bangladesh."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
